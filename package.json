@@ -2,12 +2,11 @@
   "name": "devfaker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "dev": "nodemon server.js"
+    "start": "node api/server.js",
+    "dev": "nodemon api/server.js"
   },
-  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",

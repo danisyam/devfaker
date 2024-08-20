@@ -1,6 +1,6 @@
-import express from 'express'
-import fetch from 'node-fetch'
-import { dbUsers } from './utils/db/users.js'
+const express = require('express')
+const fetch = require('node-fetch')
+const { dbUsers } = require('./utils/db/users.js')
 
 const app = express()
 
@@ -31,4 +31,5 @@ app.listen(3000, () => {
     console.log('Server is running on port 3000')
 })
 
-export default app;
+
+module.exports = app
